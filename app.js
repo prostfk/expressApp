@@ -37,7 +37,6 @@ app.use('/admin', adminRouter);
 
 
 
-
 app.use((req, res, next) =>  {
   next(createError(404));
 });

@@ -23,6 +23,7 @@ router.post('/', (req, resp) => {
                             console.log("success");
                             req.session.id = user[0].id;
                             req.session.user = user[0];
+                            resp.cookie('username',user[0].username);
                             resp.redirect("/");
 
 

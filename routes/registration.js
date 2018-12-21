@@ -17,7 +17,7 @@ router.post('/', (req,resp)=>{
             let res = db.executeQuery(`SELECT * FROM users WHERE username='${username}'`);
             if (res===undefined){
                 db.execute(
-                    `INSERT INTO users(username, password) VALUES ('${username}', '${hash}')`
+                    `INSERT INTO users(username, password, role) VALUES ('${username}', '${hash}', 'ROLE_USER')`
                 );
                 resp.redirect('/');
             }else{
