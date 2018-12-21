@@ -4,8 +4,8 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add film</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <title>Registration</title>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -25,32 +25,44 @@
             <li class="nav-item">
                 <a class="nav-link" href="/registration">Registration</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/addFilm">Add film</a>
+            </li>
+
 
         </ul>
         <form class="form-inline my-2 my-lg-0" action="/search" method="get">
-            <select class="form-control mr-sm-2" name="type" id="type">
-                <option value="title">Title</option>
-                <option value="genre">Genre</option>
-                <option value="description">Description</option>
-            </select>
-            <input class="form-control mr-sm-2" type="search" name="string" placeholder="Search" aria-label="Search">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
     </div>
 </nav>
 
 <div class="container">
-
-    <% for (var i = 0; i < films.length; i++) {%>
-        <div class="card" style="width:500px">
-            <img class="card-img-top" src="<%= films[i].pathToFile%>" alt="Card image">
-            <div class="card-body">
-                <h4 class="card-title"><%= films[i].title%></h4>
-                <p class="card-text" style="max-height:45px;overflow: hidden"><%= films[i].description%></p>
-                <a href="/film/<%= films[i].id%>" class="btn btn-primary">Read</a>
-            </div>
+    <form action="/admin/addFilm" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="title">Title</label>
+            <input type="text" class="form-control" id="title" name="title" placeholder="Title">
         </div>
-    <%}%>
+        <div class="form-group">
+            <label for="genre">Genre</label>
+            <select class="form-control" id="genre" name="genre">
+                <option value="Drama">Drama</option>
+                <option value="Horror">Horror</option>
+                <option value="Comedy">Comedy</option>
+                <option value="Science">Science</option>
+                <option value="Fantasy">Fantasy</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="description">Description</label>
+            <textarea class="form-control" id="description" name="description" placeholder="Description"></textarea>
+        </div>
+        <div class="form-group">
+            <input type="file" class="form-control" id="file" name="image" min="1" max="9999999"/>
+        </div>
+        <button type="submit" class="btn btn-primary">Add</button>
+    </form>
 </div>
 
 
