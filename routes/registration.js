@@ -14,15 +14,18 @@ router.post('/', (req,resp)=>{
     if (username.length >= 4 && username.length <= 25 && password.length >= 6 && password.length <= 20){
         bcrypt.hash(password, 10, (err, hash) =>  {
             console.log(username, password);
-            let res = db.executeQuery(`SELECT * FROM users WHERE username='${username}'`);
-            if (res===undefined){
-                db.execute(
-                    `INSERT INTO users(username, password, role) VALUES ('${username}', '${hash}', 'ROLE_USER')`
-                );
-                resp.redirect('/');
-            }else{
-                resp.redirect('/error')
-            }
+            new db.Database().query(`SELECT * FROM users WHERE username='${username}'`).then(res=>{
+                console.log(res);
+                if (res===undefined || res.length === 0){
+                    new db.Database().execute(
+                        `INSERT INTO users(username, password, role) VALUES ('${username}', '${hash}', 'ROLE_USER')`
+                    );
+                    resp.redirect('/');
+                }else{
+                    resp.redirect('/error')
+                }
+            });
+
         });
     }
 

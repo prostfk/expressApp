@@ -30,7 +30,16 @@
       <change afterPath="$PROJECT_DIR$/../ReactRedux/sample/src/containers/ordersContainer.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ReactRedux/sample/src/reducers/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ReactRedux/sample/src/reducers/orders.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/dump.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/database.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../truckingjs/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../truckingjs/frontend/trucking-ui/src/components/roleAnon/registration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../truckingjs/frontend/trucking-ui/src/constants/userActionType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../truckingjs/frontend/trucking-ui/src/lib/commontUtil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../truckingjs/frontend/trucking-ui/src/lib/validationUtil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../truckingjs/frontend/trucking-ui/src/reducers/allReducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../truckingjs/frontend/trucking-ui/src/reducers/userReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Java/Desktop/MaksTask.tar.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Java/Desktop/NewLab8.tar.xz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Java/Java EE/ITechArt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Java EE/ITechArt" afterDir="false" />
@@ -1468,12 +1477,7 @@
       <change beforePath="$PROJECT_DIR$/../React/node_modules/whatwg-fetch/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../React/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/registration.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/registration.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/error.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/error.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -1488,20 +1492,25 @@
     <session id="-1634919047">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.41" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="JavaScript-modules-diagram//home/prostrmk/Documents/Programs/JavaScript/maxpeep" value="1" />
+          <entry key="JavaScript-modules-diagram//home/prostrmk/Documents/Programs/JavaScript/maxpeep/routes" value="1" />
           <entry key="css" value="2" />
           <entry key="ejs" value="23" />
           <entry key="gitignore" value="2" />
-          <entry key="js" value="32" />
+          <entry key="js" value="35" />
           <entry key="json" value="2" />
-          <entry key="sql" value="1" />
+          <entry key="sql" value="2" />
           <entry key="www" value="1" />
         </counts>
       </usages-collector>
@@ -1510,27 +1519,28 @@
           <entry key="CSS" value="2" />
           <entry key="EJS" value="23" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="33" />
+          <entry key="JavaScript" value="36" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="SQL" value="1" />
+          <entry key="SQL" value="2" />
+          <entry key="UML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="25" />
+          <entry key="css" value="27" />
           <entry key="ejs" value="1416" />
           <entry key="gitignore" value="55" />
-          <entry key="js" value="4785" />
-          <entry key="sql" value="262" />
+          <entry key="js" value="4872" />
+          <entry key="sql" value="355" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="25" />
+          <entry key="CSS" value="27" />
           <entry key="EJS" value="1416" />
-          <entry key="JavaScript" value="4785" />
+          <entry key="JavaScript" value="4872" />
           <entry key="PLAIN_TEXT" value="55" />
-          <entry key="SQL" value="262" />
+          <entry key="SQL" value="355" />
         </counts>
       </usages-collector>
     </session>
@@ -1538,31 +1548,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.ejs">
+        <entry file="file://$PROJECT_DIR$/util/database.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-418">
-              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-              <folding>
-                <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            <state relative-caret-position="456">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/error.ejs">
+        <entry file="file://$PROJECT_DIR$/routes/registration.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/admin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -1575,6 +1582,11 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>db.exe</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -1591,8 +1603,6 @@
         <option value="$PROJECT_DIR$/views/admin.ejs" />
         <option value="$PROJECT_DIR$/util/database.js" />
         <option value="$PROJECT_DIR$/views/adminAddFilm.ejs" />
-        <option value="$PROJECT_DIR$/bin/dump.sql" />
-        <option value="$PROJECT_DIR$/routes/registration.js" />
         <option value="$PROJECT_DIR$/routes/admin.js" />
         <option value="$PROJECT_DIR$/routes/auth.js" />
         <option value="$PROJECT_DIR$/app.js" />
@@ -1600,6 +1610,8 @@
         <option value="$PROJECT_DIR$/views/error.ejs" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/bin/dump.sql" />
+        <option value="$PROJECT_DIR$/routes/registration.js" />
       </list>
     </option>
   </component>
@@ -1622,7 +1634,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="45" />
     <option name="y" value="27" />
-    <option name="width" value="918" />
+    <option name="width" value="938" />
     <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -1631,7 +1643,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1658,12 +1669,23 @@
             <path>
               <item name="maxpeep" type="b2602c69:ProjectViewProjectNode" />
               <item name="maxpeep" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maxpeep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maxpeep" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maxpeep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maxpeep" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1703,24 +1725,32 @@
       <option name="presentableId" value="Default" />
       <updated>1545340002337</updated>
       <workItem from="1545340006393" duration="5088000" />
-      <workItem from="1545377839729" duration="15811000" />
+      <workItem from="1545377839729" duration="15951000" />
+      <workItem from="1545480137297" duration="659000" />
+      <workItem from="1545657322890" duration="550000" />
+      <workItem from="1545662917200" duration="17000" />
+      <workItem from="1545664327821" duration="1607000" />
+      <workItem from="1545812852558" duration="1320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20899000" />
+    <option name="totallyTimeSpent" value="25192000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="27" width="1875" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15363586" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Project Explorer" order="4" />
+      <window_info id="DB Browser" order="5" />
+      <window_info id="Job Explorer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32969433" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32969433" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37227073" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1728,10 +1758,14 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.45960698" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.45860568" />
+      <window_info anchor="bottom" id="Console" order="11" />
+      <window_info anchor="bottom" id="DB Execution Console" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1769,13 +1803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/database.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1787,20 +1814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
           <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/dump.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="69" column="3" selection-start-line="69" selection-start-column="3" selection-end-line="69" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -1832,13 +1845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/registration.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1853,27 +1859,331 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/error.ejs">
+    <entry file="file://$PROJECT_DIR$/bin/dump.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-418">
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-          <folding>
-            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="133">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/error.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/database.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/registration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram//home/prostrmk/Documents/Programs/JavaScript/maxpeep">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/Auth.js#Buffer#13;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/Auth.js#Crypto#48;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/AuthSwitchRequestPacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/AuthSwitchResponsePacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/BufferList.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/ChangeUser.js#Auth#112;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/sequences/ChangeUser.js#Packets#74;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/sequences/ChangeUser.js#Sequence#4;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/sequences/ChangeUser.js#Util#42;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ClientAuthenticationPacket.js#Buffer#13;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComChangeUserPacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComPingPacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComQueryPacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComQuitPacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComStatisticsPacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/Connection.js#ConnectionConfig#166;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/Connection.js#Crypto#4;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/Connection.js#Events#46;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/Connection.js#Net#88;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/Connection.js#Protocol#220;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/Connection.js#Query#331;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/Connection.js#SqlString#275;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/Connection.js#Util#393;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/Connection.js#tls#127;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/ConnectionConfig.js#Charsets#110;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/ConnectionConfig.js#ClientConstants#48;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/ConnectionConfig.js#ssl_profiles.js#4823;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/ConnectionConfig.js#urlParse#22;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/EmptyPacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/EofPacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ErrorPacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/Field.js#Types#4;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/FieldPacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Handshake.js#Auth#133;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/sequences/Handshake.js#ClientConstants#175;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/sequences/Handshake.js#Packets#88;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/sequences/Handshake.js#Sequence#4;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/sequences/Handshake.js#Util#49;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/HandshakeInitializationPacket.js#Buffer#13;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/packets/HandshakeInitializationPacket.js#Client#48;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/LocalDataFilePacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/OkPacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/OldPasswordPacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/PacketHeader.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/PacketWriter.js#Buffer#387;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/Parser.js#BigNumber#141;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/Parser.js#Buffer#210;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/Parser.js#BufferList#245;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/Parser.js#PacketHeader#90;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Ping.js#Packets#74;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/sequences/Ping.js#Sequence#4;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/sequences/Ping.js#Util#42;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/Pool.js#Connection#41;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/Pool.js#EventEmitter#104;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/Pool.js#PoolConnection#178;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/Pool.js#Util#140;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/Pool.js#mysql#4;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/PoolCluster.js#EventEmitter#236;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/PoolCluster.js#Pool#4;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/PoolCluster.js#PoolConfig#43;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/PoolCluster.js#PoolNamespace#88;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/PoolCluster.js#PoolSelector#136;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/PoolCluster.js#Util#183;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/PoolConfig.js#ConnectionConfig#5;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/PoolConnection.js#Connection#47;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/PoolConnection.js#Events#89;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/PoolConnection.js#inherits#17;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/PoolNamespace.js#Connection#4;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/PoolNamespace.js#PoolSelector#48;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/PoolSelector.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/Protocol.js#PacketWriter#209;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/Protocol.js#Packets#87;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/Protocol.js#Parser#4;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/Protocol.js#Sequences#44;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/Protocol.js#Stream#143;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/Protocol.js#Util#173;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Query.js#Packets#82;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/sequences/Query.js#Readable#260;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/sequences/Query.js#ResultSet#124;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/sequences/Query.js#Sequence#4;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/sequences/Query.js#ServerStatus#168;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/sequences/Query.js#Util#46;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/sequences/Query.js#fs#226;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Quit.js#Packets#74;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/sequences/Quit.js#Sequence#4;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/sequences/Quit.js#Util#42;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/ResultSet.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ResultSetHeaderPacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/RowDataPacket.js#Charsets#70;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/packets/RowDataPacket.js#Field#139;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/packets/RowDataPacket.js#Types#4;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/SSLRequestPacket.js#ClientConstants#154;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Sequence.js#ErrorConstants#139;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/sequences/Sequence.js#EventEmitter#59;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/sequences/Sequence.js#Packets#95;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/sequences/Sequence.js#Timer#192;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/sequences/Sequence.js#Util#4;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/SqlString.js#index.js#17;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Statistics.js#Packets#74;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/sequences/Statistics.js#Sequence#4;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/sequences/Statistics.js#Util#42;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/StatisticsPacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/Timer.js#Timers#4;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/UseOldPasswordPacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/routes/admin.js#bcrypt#117;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/routes/admin.js#bodyParse#75;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/routes/admin.js#db#151;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/routes/admin.js#express#6;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/routes/admin.js#fs#191;</node>
+            <node x="" y="">$PROJECT_DIR$/app.js#adminRouter#440;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/app.js#authRouter#395;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/app.js#bodyParser#197;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/app.js#cookieParser#116;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/app.js#createError#6;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/app.js#express#50;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/app.js#fileUpload#554;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/app.js#indexRouter#240;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/app.js#logger#163;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/app.js#path#86;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/app.js#registrationRouter#334;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/app.js#session#510;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/app.js#usersRouter#287;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/application.js#Router#274;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/application.js#View#485;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/application.js#compileETag#557;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/application.js#compileQueryParser#614;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/application.js#compileTrust#672;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/application.js#debug#432;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/application.js#deprecate#709;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/application.js#finalhandler#230;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/application.js#flatten#753;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/application.js#http#515;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/application.js#merge#793;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/application.js#methods#308;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/application.js#middleware#342;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/application.js#query#389;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/application.js#resolve#839;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/application.js#setPrototypeOf#868;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/array-flatten/array-flatten.js</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/8.10.0/core-modules/assert.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bcrypt/examples/async_compare.js#bcrypt#4;</node>
+            <node x="" y="">$PROJECT_DIR$/routes/auth.js#bcrypt#117;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/routes/auth.js#bodyParse#75;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/routes/auth.js#db#151;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/routes/auth.js#express#6;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/passport/lib/middleware/authenticate.js#AuthenticationError#115;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/passport/lib/middleware/authenticate.js#IncomingMessageExt#63;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/passport/lib/middleware/authenticate.js#__monkeypatchNode#4258;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/passport/lib/middleware/authenticate.js#http#36;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/passport/lib/errors/authenticationerror.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/passport/lib/authenticator.js#SessionManager#90;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/passport/lib/authenticator.js#SessionStrategy#36;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/passport/lib/authenticator.js#connect.js#556;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bcrypt/bcrypt.js#binary#19;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/bcrypt/bcrypt.js#bindings#171;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/bcrypt/bcrypt.js#crypto#210;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/bcrypt/bcrypt.js#path#57;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/bcrypt/bcrypt.js#promises#243;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bignumber.js/bignumber.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/debug/src/browser.js#debug.js#130;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/util/buffer.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/charsets.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/client.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/passport/lib/framework/connect.js#IncomingMessageExt#737;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/passport/lib/framework/connect.js#__monkeypatchNode#660;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/passport/lib/framework/connect.js#authenticate#89;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/passport/lib/framework/connect.js#http#707;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/passport/lib/framework/connect.js#initialize#36;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express-session/session/cookie.js#cookie#211;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express-session/session/cookie.js#merge#176;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/copy-sync/copy-sync.js#_buff#2532;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/copy-sync/copy-sync.js#fs#20;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/copy-sync/copy-sync.js#mkdirpSync#96;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/copy-sync/copy-sync.js#path#54;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/copy-sync/copy-sync.js#utimesSync#147;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/copy/copy.js#fs#20;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/copy/copy.js#mkdirp#92;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/copy/copy.js#path#54;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/copy/copy.js#pathExists#139;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/copy/copy.js#utimes#191;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/multer/lib/counter.js#EventEmitter#19;</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/8.10.0/core-modules/crypto.js</node>
+            <node x="" y="">$PROJECT_DIR$/util/database.js#mysql#6;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/debug/src/debug.js#index.js#354;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/multer/storage/disk.js#crypto#77;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/multer/storage/disk.js#fs#4;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/multer/storage/disk.js#mkdirp#108;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/multer/storage/disk.js#os#27;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/multer/storage/disk.js#path#50;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/ejs/ejs.js#_VERSION_STRING#2293;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/ejs/ejs.js#_process#36586;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/ejs/ejs.js#fs#2159;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/ejs/ejs.js#path#2183;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/ejs/ejs.js#utils#2211;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/ejs/lib/ejs.js#_VERSION_STRING#1427;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/ejs/lib/ejs.js#fs#1293;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/ejs/lib/ejs.js#path#1317;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/ejs/lib/ejs.js#utils#1345;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/ejs/ejs.min.js#_VERSION_STRING#997;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/ejs/ejs.min.js#_process#17104;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/ejs/ejs.min.js#fs#878;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/ejs/ejs.min.js#path#899;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/ejs/ejs.min.js#utils#924;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/errors.js</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/8.10.0/core-modules/events.js#EventEmitter#1306;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/express.js#EventEmitter#273;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/express.js#Route#389;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/express.js#Router#428;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/express.js#bodyParser#218;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/express.js#index.js#1584;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/express.js#mixin#309;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/express.js#proto#351;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/express.js#query.js#1536;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/express.js#req#462;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/express.js#res#494;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/multer/lib/file-appender.js#objectAssign#4;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/file.js#fs#96;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/ensure/file.js#mkdir#130;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/ensure/file.js#path#67;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/ensure/file.js#pathExists#178;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/ensure/file.js#u#24;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express-fileupload/lib/fileFactory.js#fs#21;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express-fileupload/lib/fileFactory.js#md5#121;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express-fileupload/lib/fileFactory.js#path#47;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express-fileupload/lib/fileFactory.js#streamifier#77;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bcrypt/examples/forever_gen_salt.js#bcrypt#4;</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/8.10.0/core-modules/fs.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/graceful-fs/graceful-fs.js</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/8.10.0/core-modules/http.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/xtend/immutable.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/setprototypeof/index.d.ts</node>
+            <node x="" y="">Buffer;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/iconv-lite/lib/index.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/raw-body/index.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/index.js#ChangeUser.js#21;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/sequences/index.js#Handshake.js#66;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/sequences/index.js#Ping.js#105;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/sequences/index.js#Query.js#140;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/sequences/index.js#Quit.js#175;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/sequences/index.js#Sequence.js#213;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/sequences/index.js#Statistics.js#257;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/index.js#AuthSwitchRequestPacket.js#34;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/packets/index.js#AuthSwitchResponsePacket.js#107;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/packets/index.js#ClientAuthenticationPacket.js#183;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/packets/index.js#ComChangeUserPacket.js#254;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/packets/index.js#ComPingPacket.js#312;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/packets/index.js#ComQueryPacket.js#365;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/packets/index.js#ComQuitPacket.js#418;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/packets/index.js#ComStatisticsPacket.js#476;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/packets/index.js#EmptyPacket.js#532;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/packets/index.js#EofPacket.js#578;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/packets/index.js#ErrorPacket.js#624;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/packets/index.js#Field.js#666;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/packets/index.js#FieldPacket.js#708;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/packets/index.js#HandshakeInitializationPacket.js#774;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/packets/index.js#LocalDataFilePacket.js#848;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/packets/index.js#OkPacket.js#901;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/packets/index.js#OldPasswordPacket.js#952;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/packets/index.js#ResultSetHeaderPacket.js#1016;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/packets/index.js#RowDataPacket.js#1076;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/packets/index.js#SSLRequestPacket.js#1131;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/packets/index.js#StatisticsPacket.js#1189;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/lib/protocol/packets/index.js#UseOldPasswordPacket.js#1251;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/pause/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/passport-strategy/lib/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/index.js#Connection.js#3825;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/index.js#ConnectionConfig.js#3910;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/index.js#Pool.js#3989;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/index.js#PoolCluster.js#4063;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/index.js#PoolConfig.js#4143;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/index.js#SqlString.js#4221;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/mysql/index.js#types.js#4303;</node>
+            <node x="" y="">crc32;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/object-assign/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/content-disposition/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/routes/index.js#db#75;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/routes/index.js#express#6;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/routes/index.js#query#324;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/merge-descriptors/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/streamifier/lib/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mkdirp/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/append-field/index.js</node>
+            <node x="" y="">sign;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/concat-stream/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/path-to-regexp/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express-fileupload/lib/index.js#fileFactory#21;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express-fileupload/lib/index.js#isEligibleRequest#123;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express-fileupload/lib/index.js#processMultipart#67;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/cookie-parser/index.js#cookie#190;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/cookie-parser/index.js#signature#222;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/serve-static/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/range-parser/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/content-type/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/multer/index.js#MulterError#151;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/multer/index.js#diskStorage#59;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/multer/index.js#makeMiddleware#4;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/multer/index.js#memoryStorage#103;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/finalhandler/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/utils-merge/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/on-finished/index.js</node>
+            <node x="" y="">fromCallback;fromPromise;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/escape-html/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/http-errors/index.js#deprecate#185;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/http-errors/index.js#inherits#314;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/http-errors/index.js#setPrototypeOf#232;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/http-errors/index.js#statuses#279;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/proxy-addr/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/body-parser/index.js#deprecate#156;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/body-parser/index.js#json.js#2302;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/body-parser/index.js#raw.js#2373;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/body-parser/index.js#text.js#2444;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/body-parser/index.js#urlencoded.js#2522;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/on-headers/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/basic-auth/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/encodeurl/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/statuses/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/parseurl/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/move-sync/index.js#buffer#235;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/move-sync/index.js#copySync#94;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/move-sync/index.js#fs#20;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/move-sync/index.js#mkdirpSync#197;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/move-sync/index.js#path#54;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/move-sync/index.js#removeSync#146;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/path-exists/index.js#fs#65;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/path-exists/index.js#pathExists#202;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/path-exists/index.js#u#23;</node>
+            <node x="" y="">sync;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/output/index.js#fs#67;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/output/index.js#mkdir#130;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/output/index.js#path#101;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/output/index.js#pathExists#178;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/output/index.js#u#24;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/copy-sync/index.js#copy-sync.js#45;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/copy-sync/index.js#copySync#35;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/remove/index.js#remove#118;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/remove/index.js#removeSync#139;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/remove/index.js#rimraf#67;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/remove/index.js#u#24;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/index.js#file#20;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/ensure/index.js#link#51;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/ensure/index.js#symlink#82;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/empty/index.js#fs#67;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/empty/index.js#mkdir#121;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/empty/index.js#path#92;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/empty/index.js#remove#156;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/empty/index.js#u#24;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/mkdirs/index.js#mkdirp#199;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/mkdirs/index.js#mkdirs#164;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/mkdirs/index.js#mkdirsSync#174;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/mkdirs/index.js#u#23;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/type-is/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/methods/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/json/index.js#jsonFile#67;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/json/index.js#output-json-sync.js#177;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/json/index.js#output-json.js#125;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/json/index.js#u#24;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/move/index.js#copy#137;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/move/index.js#fs#67;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/move/index.js#mkdirp#219;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/move/index.js#path#101;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/move/index.js#pathExists#266;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/move/index.js#remove#176;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/move/index.js#u#24;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/fs/index.js#fs#198;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/fs/index.js#u#155;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/copy/index.js#copy#82;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/copy/index.js#copy.js#90;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/copy/index.js#u#24;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/router/index.js#Layer#262;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/router/index.js#Route#230;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/router/index.js#debug#364;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/router/index.js#deprecate#412;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/router/index.js#flatten#456;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/router/index.js#methods#294;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/router/index.js#mixin#328;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/router/index.js#parseUrl#496;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/router/index.js#setPrototypeOf#532;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/index.js#fs#533;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/index.js#index.js#164;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/index.js#express.js#198;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/accepts/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/morgan/index.js#auth#411;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/morgan/index.js#debug#444;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/morgan/index.js#deprecate#483;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/morgan/index.js#onFinished#525;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/morgan/index.js#onHeaders#565;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fresh/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/cookie/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/passport/lib/index.js#Passport#36;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/passport/lib/index.js#SessionStrategy#78;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/passport/lib/index.js#index.js#334;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/debug/src/index.js#browser.js#186;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/debug/src/index.js#node.js#239;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express-session/index.js#Cookie#638;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express-session/index.js#MemoryStore#592;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express-session/index.js#Session#549;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express-session/index.js#Store#679;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express-session/index.js#cookie#230;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express-session/index.js#crc#268;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express-session/index.js#debug#294;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express-session/index.js#deprecate#343;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express-session/index.js#onHeaders#466;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express-session/index.js#parseUrl#395;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express-session/index.js#signature#504;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express-session/index.js#uid#437;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bytes/index.js</node>
+            <node x="" y="">mime;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/vary/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/etag/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/depd/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/qs/lib/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/ms/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/sqlstring/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/inherits/inherits.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/middleware/init.js#setPrototypeOf#230;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/passport/lib/middleware/initialize.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/debug/src/inspector-log.js#nullStream#70;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express-fileupload/lib/isEligibleRequest.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/body-parser/lib/types/json.js#bytes#190;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/body-parser/lib/types/json.js#contentType#219;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/body-parser/lib/types/json.js#createError#261;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/body-parser/lib/types/json.js#debug#302;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/body-parser/lib/types/json.js#read#351;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/body-parser/lib/types/json.js#typeis#381;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/json/jsonfile.js#jsonFile#67;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/json/jsonfile.js#u#24;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/router/layer.js#debug#274;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/router/layer.js#pathRegexp#230;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/link.js#fs#96;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/ensure/link.js#mkdir#130;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/ensure/link.js#path#67;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/ensure/link.js#pathExists#178;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/ensure/link.js#u#24;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/busboy/lib/main.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/multer/lib/make-middleware.js#Busboy#32;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/multer/lib/make-middleware.js#Counter#176;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/multer/lib/make-middleware.js#FileAppender#255;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/multer/lib/make-middleware.js#MulterError#211;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/multer/lib/make-middleware.js#appendField#133;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/multer/lib/make-middleware.js#extend#63;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/multer/lib/make-middleware.js#is#4;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/multer/lib/make-middleware.js#onFinished#93;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/multer/lib/make-middleware.js#removeUploadedFiles#301;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/md5/md5.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/multer/storage/memory.js#concat#4;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express-session/session/memory.js#Store#225;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express-session/session/memory.js#util#256;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/mkdirs/mkdirs-sync.js#fs#20;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/mkdirs/mkdirs-sync.js#invalidWin32Path#102;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/mkdirs/mkdirs-sync.js#path#54;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/mkdirs/mkdirs.js#fs#20;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/mkdirs/mkdirs.js#invalidWin32Path#102;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/mkdirs/mkdirs.js#path#54;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/multer/lib/multer-error.js#util#4;</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/8.10.0/core-modules/net.js#isIP#46180;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bcrypt/node_modules/node-pre-gyp/lib/node-pre-gyp.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/debug/src/node.js#debug.js#214;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/debug/src/node.js#fs#4406;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/debug/src/node.js#net#4575;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/debug/src/node.js#tty#37;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/debug/src/node.js#util#63;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/debug/node.js#node.js#17;</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/8.10.0/core-modules/os.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/json/output-json-sync.js#fs#20;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/json/output-json-sync.js#jsonFile#118;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/json/output-json-sync.js#mkdir#83;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/json/output-json-sync.js#path#54;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/json/output-json.js#jsonFile#140;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/json/output-json.js#mkdir#49;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/json/output-json.js#path#20;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/json/output-json.js#pathExists#97;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/ejs/package.json#version#1922;</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/8.10.0/core-modules/path.js#resolve#35491;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express-fileupload/lib/processMultipart.js#Busboy#6;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express-fileupload/lib/processMultipart.js#fileFactory#40;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bcrypt/promises.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/middleware/query.js#merge#218;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/middleware/query.js#parseUrl#253;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/middleware/query.js#qs#289;</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/8.10.0/core-modules/querystring.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/body-parser/lib/types/raw.js#bytes#144;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/body-parser/lib/types/raw.js#debug#173;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/body-parser/lib/types/raw.js#read#221;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/body-parser/lib/types/raw.js#typeis#251;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/body-parser/lib/read.js#createError#156;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/body-parser/lib/read.js#getBody#197;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/body-parser/lib/read.js#iconv#231;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/body-parser/lib/read.js#onFinished#265;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/body-parser/lib/read.js#zlib#305;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/readable-stream/readable.js</node>
+            <node x="" y="">$PROJECT_DIR$/routes/registration.js#bcrypt#117;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/routes/registration.js#bodyParse#75;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/routes/registration.js#db#151;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/routes/registration.js#express#6;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/multer/lib/remove-uploaded-files.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/request.js#accepts#230;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/request.js#deprecate#264;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/request.js#fresh#401;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/request.js#http#373;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/request.js#isIP#315;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/request.js#parse#473;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/request.js#parseRange#431;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/request.js#proxyaddr#506;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/request.js#typeis#340;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/passport/lib/http/request.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/response.js#Buffer#203;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/response.js#contentDisposition#237;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/response.js#cookie#836;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/response.js#deprecate#294;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/response.js#encodeUrl#338;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/response.js#escapeHtml#376;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/response.js#http#417;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/response.js#isAbsolute#458;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/response.js#merge#597;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/response.js#normalizeType#694;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/response.js#normalizeTypes#749;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/response.js#onFinished#493;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/response.js#path#534;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/response.js#send#868;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/response.js#setCharset#801;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/response.js#sign#640;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/response.js#statuses#562;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/response.js#vary#974;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/remove/rimraf.js#assert#83;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/remove/rimraf.js#fs#20;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/remove/rimraf.js#path#54;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/router/route.js#Layer#324;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/router/route.js#debug#230;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/router/route.js#flatten#284;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/router/route.js#methods#356;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express-fileupload/example/server.js#express#6;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express-fileupload/example/server.js#fileUpload#42;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/server_status.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/passport/lib/strategies/session.js#Strategy#92;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/passport/lib/strategies/session.js#pause#36;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/passport/lib/strategies/session.js#util#65;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express-session/session/session.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/passport/lib/sessionmanager.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/ssl_profiles.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express-session/session/store.js#Cookie#187;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express-session/session/store.js#EventEmitter#235;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express-session/session/store.js#Session#270;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express-session/session/store.js#util#305;</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/8.10.0/core-modules/stream.js#Stream#1638;/home/prostrmk/.WebStorm2018.2/config/javascript/nodejs/8.10.0/core-modules/stream.js#Writable#1409;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/symlink-paths.js#fs#49;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/ensure/symlink-paths.js#path#20;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/ensure/symlink-paths.js#pathExists#96;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/symlink-type.js#fs#20;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/symlink.js#_mkdirs#130;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/ensure/symlink.js#_symlinkPaths#236;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/ensure/symlink.js#_symlinkType#390;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/ensure/symlink.js#fs#96;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/ensure/symlink.js#path#67;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/ensure/symlink.js#pathExists#549;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/ensure/symlink.js#u#24;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/body-parser/lib/types/text.js#bytes#144;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/body-parser/lib/types/text.js#contentType#173;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/body-parser/lib/types/text.js#debug#215;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/body-parser/lib/types/text.js#read#264;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/body-parser/lib/types/text.js#typeis#294;</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/8.10.0/core-modules/timers.js</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/8.10.0/core-modules/tls.js</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/8.10.0/core-modules/tty.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/types.js</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/8.10.0/core-modules/url.js#parse#31017;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/body-parser/lib/types/urlencoded.js#bytes#190;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/body-parser/lib/types/urlencoded.js#contentType#219;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/body-parser/lib/types/urlencoded.js#createError#261;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/body-parser/lib/types/urlencoded.js#debug#302;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/body-parser/lib/types/urlencoded.js#deprecate#357;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/body-parser/lib/types/urlencoded.js#index.js#4569;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/body-parser/lib/types/urlencoded.js#querystring.js#4631;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/body-parser/lib/types/urlencoded.js#read#404;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/body-parser/lib/types/urlencoded.js#typeis#434;</node>
+            <node x="" y="">$PROJECT_DIR$/routes/users.js#express#6;</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/8.10.0/core-modules/util.js#inherits#34493;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/utils.js#Buffer#207;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/utils.js#compileETag#3224;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/utils.js#compileQueryParser#3774;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/utils.js#compileTrust#4424;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/utils.js#contentDisposition#241;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/utils.js#contentType#298;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/utils.js#deprecate#341;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/utils.js#etag#458;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/utils.js#flatten#385;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/utils.js#isAbsolute#1086;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/utils.js#mime#432;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/utils.js#normalizeType#1693;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/utils.js#normalizeTypes#1971;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/utils.js#proxyaddr#486;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/utils.js#qs#525;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/utils.js#querystring#549;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/utils.js#setCharset#5021;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/ejs/lib/utils.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/util/utimes.js#fs#20;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/util/utimes.js#os#54;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/util/utimes.js#path#79;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/util/utimes.js#utimesMillis#2335;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/util/utimes.js#utimesMillisSync#2351;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/view.js#debug#230;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/view.js#fn#1551;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/view.js#fs#304;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/express/lib/view.js#path#276;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/mkdirs/win32.js#invalidWin32Path#498;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/node_modules/fs-extra/lib/mkdirs/win32.js#path#20;</node>
+            <node x="" y="">$PROJECT_DIR$/bin/www#app#59;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/bin/www#debug#90;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/bin/www#http#140;</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/8.10.0/core-modules/zlib.js</node>
+            <node x="" y="">_process</node>
+            <node x="" y="">binding_path</node>
+            <node x="" y="">cookie</node>
+            <node x="" y="">fs</node>
+            <node x="" y="">jsonfile</node>
+            <node x="" y="">__express;</node>
+            <node x="" y="">version;</node>
+            <node x="" y="">utils</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.40000000000000013" x="2478.999999999999" y="3087.25" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram//home/prostrmk/Documents/Programs/JavaScript/maxpeep/routes">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/routes</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/routes/admin.js#bcrypt#117;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/routes/admin.js#bodyParse#75;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/routes/admin.js#db#151;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/routes/admin.js#express#6;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/routes/admin.js#fs#191;</node>
+            <node x="" y="">$PROJECT_DIR$/routes/auth.js#bcrypt#117;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/routes/auth.js#bodyParse#75;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/routes/auth.js#db#151;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/routes/auth.js#express#6;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bcrypt/bcrypt.js</node>
+            <node x="" y="">$PROJECT_DIR$/util/database.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/body-parser/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/routes/index.js#db#75;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/routes/index.js#express#6;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/routes/index.js#query#324;</node>
+            <node x="" y="">$PROJECT_DIR$/routes/registration.js#bcrypt#117;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/routes/registration.js#bodyParse#75;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/routes/registration.js#db#151;/home/prostrmk/Documents/Programs/JavaScript/maxpeep/routes/registration.js#express#6;</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/8.10.0/core-modules/url.js#parse#31017;</node>
+            <node x="" y="">$PROJECT_DIR$/routes/users.js#express#6;</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="618.5" y="365.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
         </state>
       </provider>
     </entry>
