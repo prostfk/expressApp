@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Films</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="/script.js"></script>
+</head>
+<body>
+
+<div th:include="~{adminIndex.html :: admin-nav}"></div>
+
+
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+    <table class="w3-table">
+        <tr>
+            <th>Title</th>
+            <th>Genre</th>
+            <th>Year</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+        <div th:each="film : ${films}">
+            <tr class="animated fadeInUp">
+                <td th:text="${film.title}"></td>
+                <td th:text="${film.genre}"></td>
+                <td th:text="${film.year}"></td>
+                <td><a th:href="'/admin/editFilm/' + ${film.id}" class="w3-btn">Edit</a></td>
+                <th>
+                    <form method="post" action="/admin/deleteFilm">
+                        <input type="text" th:value="${film.id}" name="id" style="display: none">
+                        <button type="submit" class="btn w3-red">Delete</button>
+                    </form>
+                </th>
+            </tr>
+        </div>
+    </table>
+
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Auth</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="/script.js"></script>
+</head>
+<body>
+
+<div th:include="~{index.html :: nav-bar}">
+
+</div>
+
+<div class="w3-main w3-content w3-padding animated fadeInUp" style="max-width:1200px;margin-top:100px">
+
+    <div class="w3-container w3-blue">
+        <h2>Input Form</h2>
+    </div>
+
+    <form class="w3-container" action="/registration" method="post">
+        <p>
+            <input class="w3-input" name="username" type="text">
+            <label>Username</label></p>
+
+        <p>
+            <input class="w3-input" name="password" type="password">
+            <label>Password</label>
+        </p>
+
+        <button class="w3-button w3-blue" type="submit">Auth</button>
+
+    </form>
+
+</div>
+
+
+</body>
+</html>

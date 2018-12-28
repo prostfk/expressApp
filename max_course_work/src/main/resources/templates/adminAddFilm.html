@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Add film</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="/script.js"></script></head>
+</head>
+<body>
+<div th:include="~{adminIndex.html :: admin-nav}"></div>
+
+<div class="w3-main w3-content w3-padding animated fadeInUp" style="max-width:1200px;margin-top:100px">
+
+    <div class="w3-container w3-blue">
+        <h2>Add film</h2>
+    </div>
+
+    <form class="w3-container" action="/admin/addFilm" method="post" enctype="multipart/form-data">
+        <p>
+            <input class="w3-input" name="title" type="text">
+            <label>Title</label>
+        </p>
+        <p>
+            <select class="w3-select" id="genre" name="genre">
+                <option value="Drama">Drama</option>
+                <option value="Horror">Horror</option>
+                <option value="Comedy">Comedy</option>
+                <option value="Science">Science</option>
+                <option value="Fantasy">Fantasy</option>
+            </select>
+            <label>Genre</label>
+        </p>
+        <p>
+            <label>Description</label>
+            <textarea class="w3-input" name="description" type="text"></textarea>
+        </p>
+
+        <p>
+            <input class="w3-input" name="year" type="number">
+            <label>Year</label>
+        </p>
+        <p>
+            <input class="w3-input" name="file" type="file" min="1" max="99999999">
+            <label>Picture</label>
+        </p>
+
+
+        <button class="w3-button w3-blue" type="submit">Add film</button>
+
+    </form>
+
+</div>
+
+
+</body>
+</html>

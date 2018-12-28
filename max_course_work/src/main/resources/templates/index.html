@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:sec="http://www.springframework.org/security/tags" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="/script.js"></script>
+</head>
+<body>
+
+<div th:fragment="nav-bar">
+    <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left"
+         style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+        <a href="javascript:void(0)" onclick="closeNav()"
+           class="w3-bar-item w3-button">Menu</a>
+        <a href="/" onclick="openNav()" class="w3-bar-item w3-button">Index</a>
+        <a sec:authorize="!isAuthenticated()" href="/auth" onclick="openNav()" class="w3-bar-item w3-button">Auth</a>
+        <a sec:authorize="hasRole('USER')" href="/logout" onclick="openNav()" class="w3-bar-item w3-button">Logout</a>
+        <a sec:authorize="!isAuthenticated()" href="/registration" onclick="closeNav()" class="w3-bar-item w3-button">Registration</a>
+        <div sec:authorize="hasRole('USER')">
+            <a href="/wishList" onclick="closeNav()" class="w3-bar-item w3-button">Wishes</a>
+        </div>
+        <a sec:authorize="hasRole('ADMIN')" href="/admin" onclick="closeNav()" class="w3-bar-item w3-button">Admin panel</a>
+
+        <div class="w3-bar-tem">
+            <h3 style="margin-left: 50%">Search</h3>
+        </div>
+        <form action="/search" method="get">
+            <div class="w3-bar-item">
+                <div>
+                    <select class="w3-select w3-white" name="type">
+                        <option value="title">Title</option>
+                        <option value="description">Description</option>
+                        <option value="genre">Genre</option>
+                        <option value="year">Year</option>
+                    </select>
+                </div>
+                <div class="w3-bar-item">
+
+                    <div class="w3-threequarter">
+                        <input type="text" class="w3-input w3-boarder" placeholder="search string" name="value"/>
+                    </div>
+                    <div class="">
+                        <button class="w3-btn" type="submit">Go</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    </nav>
+    <div class="w3-top">
+        <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+            <div class="w3-button w3-padding-16 w3-left" onclick="openNav()">☰</div>
+            <div class="w3-center w3-padding-16">Film Catalog</div>
+        </div>
+    </div>
+</div>
+
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+    <div th:each="film, intrStat : ${films}" class="animated fadeInUp">
+        <div class="w3-row-padding w3-padding-16 w3-center">
+            <img th:src="${film.pathToFile}" alt="Sandwich">
+            <h3 th:text="${film.title}"></h3>
+            <h6 th:text="'Year: ' + ${film.year}"></h6>
+            <h6 th:text="'Genre: ' + ${film.genre}"></h6>
+            <p th:text="${film.description}" style="height: 80px; overflow: hidden"></p>
+            <a th:href="'/film/' + ${film.id}" class="w3-btn">More</a>
+        </div>
+
+    </div>
+</div>
+
+
+</body>
+</html>

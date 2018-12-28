@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${film.title}"></title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="/script.js"></script>
+</head>
+<body>
+<div th:include="~{index.html :: nav-bar}"></div>
+
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+    <div class="w3-card-4">
+        <img th:src="${film.pathToFile}" th:alt="${film.title}">
+        <div class="w3-container w3-center">
+            <h1 th:text="${film.title}"></h1>
+            <h3 th:text="'Year: ' + ${film.year}"></h3>
+            <h5 th:text="'Genre' + ${film.genre}"></h5>
+            <p th:text="${film.description}"></p>
+            <div sec:authorize="hasRole('USER')">
+                <form action="/addWish" method="post">
+                    <button class="w3-btn">
+                        Add to wishes
+                    </button>
+                    <input style="display: none;" name="id" th:value="${film.id}"/>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
